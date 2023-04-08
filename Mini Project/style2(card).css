@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+
+
+body{
+    
+    justify-content: center;
+    background-color: #ebf5fc;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    padding-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    border-radius: 1em;
+    position:relative;
+    
+    overflow:hidden;
+    
+}
+.card{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    -ms-align-items:center;
+    width:320px;
+    height: 450px;
+    margin:45px;
+    border-radius: 10px;
+    box-shadow:
+    inset
+    2px 2px 2px rgb(0,0,0,0.5),
+    inset 
+    -5px -5px 5px rgba(255,255,255,0.5),
+    4px 4px 4px rgba(0,0,0,0.5),
+    -5px -5px 5px rgba(255,255,255,0.5);
+    overflow: hidden;
+    
+}
+.card::before{
+    
+    content:'';
+    position:absolute;
+    width:1000px;
+    height:1000px;
+    background: rgb(2,0,36);
+    background: linear-gradient(260deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    animation: rotate 2.5s linear infinite;
+}
+.card::after{
+    content: '';
+    position:absolute;
+    background:#ebf5fc;
+    inset:3.5px;
+    border-radius: 10px;
+}
+@keyframes rotate {
+    from{
+        ttransform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+    
+}
+
+
+.card:hover{
+    position:relative;
+    background-color:#C0C0C0;
+    color:#1B1212;
+    transform: scale(1.15);
+    transition:all 0.5s ease;
+}
+
+.card-image{
+    position:relative;
+    height:150px;
+    margin-bottom:15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+    z-index:2;
+}
+.site-1{
+    z-index: 2;
+    position: relative;
+    background-image: url('home\(best\).png');
+    }
+.site-2{
+    background-image: url('home\(vs\).png');
+}
+.site-3{
+    background-image: url('home\(review\).png');
+}
+.card h2{
+    position:relative;
+    font-size: large;
+    font-style: bolder;
+    padding:10px;
+    z-index:10
+}
+.card p{
+    position:relative;
+    font-size: medium;
+    padding:10px;
+    z-index:2;
+}
+.card a{
+    position: relative;
+    display: inline-block;
+    padding:10px 25px;
+    background:linear-gradient(270deg,#5f2c82,#ee38bf,#ff5858,#49a09d,#1b5ece,#5f2c82,#ee38bf,#ff5858); /*colorful animation*/
+    background-size: 400% 400%;/*colorful animation*/
+    animation:AnimationName 2s ease infinite;/*colorful animation*/
+    margin-top:35px;
+    border-radius: 20px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: bolder;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    z-index: 2;
+}
+@keyframes AnimationName{
+    0%{
+        background-position: 0% center;/*colorful animation*/
+    }
+    100%{
+        background-position: 100% center;/*colorful animation*/
+    }
+}
+.card a:hover{
+    
+    transform: scale(1.10);
+    transition:all 0.2s ease;
+}
+

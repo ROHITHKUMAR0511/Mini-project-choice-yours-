@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="review(laptop).css" />
+    <link rel="stylesheet" href="style1(nav).css">
+    <link rel="stylesheet" href="style(footer).css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">CHOICE YOURS</label>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Comparison.html">comparison</a></li>
+        <li><a href="review(mobile).html">Reviews</a></li>
+        <li><a href='about.html'>About</a></li>
+        
+      </ul>
+    </nav>
+    
+    
+    <div class="wrapper">
+      <div>
+        <button class="button-value0 " onclick="window.location.href='review(mobile).html';"> Smartphone</button>
+        <button class="button-value0" onclick="window.location.href='review(laptop).html';">Laptops</button>
+        <button class="button-value0 " onclick="window.location.href='review(tablet).html';">Tablet</button> 
+        <button class="button-value0 active" onclick="window.location.href='review(smartwatch).html';"> Smartwatch</button>
+      </div>
+      <div id="search-container">
+        <input type="search" id="search-input" placeholder="Search product name here.."/>
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('under10K')">
+          under10K
+        </button>
+        <button class="button-value" onclick="filterProduct('Between=20k-40k')">
+          Between=20k-40k
+        </button>
+        <button class="button-value" onclick="filterProduct('Above>40K')">
+          Above>40K
+        </button>
+        <button class="button-value" onclick="filterProduct('Iwatch')">
+           Iwatch
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="review(smartwatch).js"></script>
+    <footer>
+      <div class="footer-content">
+          <h3>CHOICE YOURS</h3>
+          <p>This webpage guide to Buy a product.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">ROHITH KUMAR :)</a>  </p>
+          <div class="footer-menu">
+            <ul class="f-menu">
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="productsList.html">productLists</a></li>
+              <li><a href="Comparison.html">comparisons</a></li>
+              <li><a href="review(mobile).html">reviews</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+      </div>
+
+  </footer>
+  </body>
+</html>

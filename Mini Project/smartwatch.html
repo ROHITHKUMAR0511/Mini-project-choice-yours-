@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style3(table).css">
+    <link rel="stylesheet" href="style(footer).css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <style>
+        tr:nth-child(even) {
+            background-color: white;
+            
+        }
+        tr,th,td{
+            border: 1px solid black;
+            font-style: inherit;
+            color: #0f1423;
+            border-style:inherit;
+        }
+  
+    td>img{
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+        }
+    </style>
+
+    <title>ROHITH SITE</title>
+</head>
+
+<body style="background-color: white";>
+    <header>
+		<nav class="navigation">
+
+			<!-- Logo -->
+			<div class="logo">
+				<h1>CHOICE YOURS</h1>
+			</div>
+			
+			<!-- Navigation -->
+			<ul class="menu-list">
+                <li><a href="home.html">Home</a></li>
+				<li><a href="Comparison.html">SMART PHONES</a></li>
+				<li><a href="tablet.html">TABLETS</a></li>
+				<li><a href="laptop.html">LAPTOPS</a></li>
+				<li><a class="btn active" href="smartwatch.html">SMARTWATCH</a></li>
+			</ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                <tr>
+                    <th style="width: 20%;"></th>
+                    <td align="center" style="width:40%">𝐒𝐌𝐀𝐑𝐓 𝐖𝐀𝐓𝐂𝐇 𝟏</td>
+                    <td align="center" style="width:40%">𝐒𝐌𝐀𝐑𝐓 𝐖𝐀𝐓𝐂𝐇 𝟐</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                <tr>
+                    <th style="width: 20%;"></th>
+                    <td align="center" style="width:40%">𝐒𝐌𝐀𝐑𝐓 𝐖𝐀𝐓𝐂𝐇 𝟏</td>
+                    <td align="center" style="width:40%">𝐒𝐌𝐀𝐑𝐓 𝐖𝐀𝐓𝐂𝐇 𝟐</td>
+                </tr>
+                <tr>
+                    <th style="width:20%">SELECT WATCHES:</th>
+                    <th style="width:40%">
+                        <select class="form-control" id="select1" onchange="item1(this.value)">
+                        <option align="center" value=disabled selected hidden>🇸​🇪​🇱​🇪​🇨​🇹​ 🇦​ 🇩​🇪​🇻​🇮​🇨​🇪​ 🇫​🇷​🇴​🇲​ 🇭​🇪​🇷​🇪 ▼​​</option>
+                        </select>
+                    </th>
+                    <th style="width:40%">
+                        <select class="form-control" id="select2" onchange="item2(this.value)">
+                        <option align="center" value=disabled selected hidden>🇸​🇪​🇱​🇪​🇨​🇹​ 🇦​ 🇩​🇪​🇻​🇮​🇨​🇪​ 🇫​🇷​🇴​🇲​ 🇭​🇪​🇷​🇪 ▼</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="width:20%">TABLET IMAGE:</th>
+                    <td style="width:40%">
+                        <img src="D:\mini project\png\Smartwatch.png" id="img1" alt="">
+                    </td>
+                    <td style="width:40%">
+                        <img src="D:\mini project\png\Smartwatch.png" id="img2" alt="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                <tr>
+                    <th rowspan="2">DISPLAY</th>
+                    <th>size</th>
+                    <td style="width:40%;" id="display1">n/a</td>
+                    <td style="width:40%;" id="display2">n/a</td>
+                </tr>
+                <tr>
+                    <th>type</th>
+                    <td id="display3">n/a</td>
+                    <td id="display4">n/a</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">PERFORMANCE</th>
+                    <th> cpu:</th>
+                    <td id="cpu1">n/a</td>
+                    <td id="cpu2">n/a</td>
+                </tr>
+                <tr>
+                    <th> GPU: </th>
+                    <td id="gpu1">n/a</td>
+                    <td id="gpu2">n/a</td>
+                </tr>
+                <tr>
+                    <th rowspan="2"> BATTERY</th>
+                    <th>capacity:</th>
+                    <td id="capacity1">n/a</td>
+                    <td id="capacity2">n/a</td>
+                </tr>
+                <tr>
+                    <th>charging:</th>
+                    <td id="charging1">n/a</td>
+                    <td id="charging2">n/a</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">PLATEFORM</th>
+                    <th>os:</th>
+                    <td id="os1">n/a</td>
+                    <td id="os2">n/a</td>
+                </tr>
+                <tr>
+                    <th>skin:</th>
+                    <td id="skin1">n/a</td>
+                    <td id="skin2">n/a</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">STORAGE</th>
+                    <th>RAM:</th>
+                    <td id="ram1">n/a</td>
+                    <td id="ram2">n/a</td>
+                </tr>
+                <tr>
+                    <th>ROM:</th>
+                    <td id="rom1">n/a</td>
+                    <td id="rom2">n/a</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">LAUNCH</th>
+                    <TH>Annonced:</TH>
+                    <td id="annoncement1">n/a</td>
+                    <td id="annoncement2">n/a</td>
+                </tr>
+                <tr>
+                    <th>status:</th>
+                    <td id="status1">n/a</td>
+                    <td id="status2">n/a</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>CHOICE YOURS</h3>
+            <p>This webpage guide to Buy a product.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">ROHITH KUMAR :)</a>  </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="Home.html">Home</a></li>
+                  <li><a href="productsList.html">productLists</a></li>
+                  <li><a href="Comparison.html">comparisons</a></li>
+                  <li><a href="review(mobile).html">reviews</a></li>
+                  <li><a href="about.html">About</a></li>
+                </ul>
+        </div>
+  
+    </footer>
+</body>
+</html>
+
+<script src="data.js"></script>
+<script>
+    for (var i =1;i<watch.length;i++)
+    {
+        document.getElementById("select1").innerHTML+=`
+        <option value="${i}" align="center">${watch[i].title}</option>
+        `;  
+        document.getElementById("select2").innerHTML+=`
+        <option value="${i}" align="center">${watch[i].title}</option>
+        `;  
+    }
+
+    function item1(a)
+    {
+        document.getElementById("img1").src=watch[a].image
+        document.getElementById("display1").innerHTML=watch[a].display1
+        document.getElementById("display3").innerHTML=watch[a].display2  
+        document.getElementById("cpu1").innerHTML=watch[a].processor1
+        document.getElementById("gpu1").innerHTML=watch[a].processor2
+        document.getElementById("capacity1").innerHTML=watch[a].battery1
+        document.getElementById("charging1").innerHTML=watch[a].battery2
+        document.getElementById("os1").innerHTML=watch[a].os1
+        document.getElementById("skin1").innerHTML=watch[a].os2
+        document.getElementById("ram1").innerHTML=watch[a].storage1
+        document.getElementById("rom1").innerHTML=watch[a].storage2
+        document.getElementById("annoncement1").innerHTML=watch[a].status1
+        document.getElementById("status1").innerHTML=watch[a].status2
+    }
+    function item2(a)
+    {
+        document.getElementById("img2").src=watch[a].image
+        document.getElementById("display2").innerHTML=watch[a].display1
+        document.getElementById("display4").innerHTML=watch[a].display2
+        document.getElementById("cpu2").innerHTML=watch[a].processor1
+        document.getElementById("gpu2").innerHTML=watch[a].processor2
+        document.getElementById("capacity2").innerHTML=watch[a].battery1
+        document.getElementById("charging2").innerHTML=watch[a].battery2
+        document.getElementById("os2").innerHTML=watch[a].os1
+        document.getElementById("skin2").innerHTML=watch[a].os2
+        document.getElementById("ram2").innerHTML=watch[a].storage1
+        document.getElementById("rom2").innerHTML=watch[a].storage2
+        document.getElementById("annoncement2").innerHTML=watch[a].status1
+        document.getElementById("status2").innerHTML=watch[a].status2
+    }
+</script>

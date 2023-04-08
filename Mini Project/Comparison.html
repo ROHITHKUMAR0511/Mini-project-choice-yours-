@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="This site use for compare a electronic devices">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style3(table).css">
+    <link rel="stylesheet" href="style(footer).css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <style>
+        tr:nth-child(even) {
+            background-color: white;    
+        }
+        tr,th,td{
+            border: 1px solid black;
+            font-style: inherit;
+            color: #0f1423;
+            border-style:inherit;
+        }
+    td>img{
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+        }
+    
+    </style>
+    <title>ROHITH SITE</title>
+</head>
+
+<body style="background-color:white">
+    
+    <header>
+		<nav class="navigation">
+
+			<!-- Logo -->
+			<div class="logo">
+				<h1>CHOICE YOURS</h1>
+			</div>
+			
+			<!-- Navigation -->
+			<ul class="menu-list">
+                <li><a href="home.html">Home</a></li>
+				<li><a class="active" href="Comparison.html">SMART PHONES</a></li>
+				<li><a href="tablet.html">TABLETS</a></li>
+				<li><a href="laptop.html">LAPTOPS</a></li>
+				<li><a href="smartwatch.html">SMARTWATCH</a></li>
+			</ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                <tr>
+                    <th style="width: 20%;"></th>
+                    <td align="center" style="width:40%">𝐌𝐎𝐁𝐈𝐋𝐄 𝟏</td>
+                    <td align="center" style="width:40%">𝐌𝐎𝐁𝐈𝐋𝐄 𝟐</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                
+                <tr>
+                    <th style="width: 20%;"></th>
+                    <td align="center" style="width:40%">𝐌𝐎𝐁𝐈𝐋𝐄 𝟏</td>
+                    <td align="center" style="width:40%">𝐌𝐎𝐁𝐈𝐋𝐄 𝟐</td>
+                </tr>
+                <tr>
+                    <th style="width:20%">SELECT MOBILES:</th>
+                    <th style="width:40%">
+                        <select class="form-control" id="select1" onchange="item1(this.value)">
+                        <option align="center" value=disabled selected hidden> 🇸​🇪​🇱​🇪​🇨​🇹​ 🇦​ 🇩​🇪​🇻​🇮​🇨​🇪​ 🇫​🇷​🇴​🇲​ 🇭​🇪​🇷​🇪 ▼​</option>
+                        </select>
+                       
+                    </th>
+                    <th style="width:40%">
+                        <select class="form-control" id="select2" onchange="item2(this.value)">
+                        <option align="center" value=diabled selected hidden> 🇸​🇪​🇱​🇪​🇨​🇹​ 🇦​ 🇩​🇪​🇻​🇮​🇨​🇪​ 🇫​🇷​🇴​🇲​ 🇭​🇪​🇷​🇪 ▼​</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="width:20%">MOBLES IMAGE:</th>
+                    <td style="width:40%">
+                        <img src="C:\xampp\htdocs\project\mobile.png" id="img1" alt="">
+                    </td>
+                    <td style="width:40%">
+                        <img src="C:\xampp\htdocs\project\mobile.png" id="img2" alt="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 mx-auto">
+            <table style="background-color: aliceblue;" class="table">
+                <tr>
+                    <th rowspan="2">LAUNCH:</th>
+                    <th>Announced:</th>
+                    <td style="width: 40%;" align="center"  id="launch1">𝙉/𝘼</td>
+                    <td style="width: 40%;" align="center" id="launch2">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th>STATUS:</th>
+                    <td style="width: 40%;" align="center" id="launch3">𝙉/𝘼</td>
+                    <td style="width: 40%;" align="center" id="launch4">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">DISPLAY:</th>
+                    <th>size</th>
+                    <td style="width: 40%;" align="center" id="display1">𝙉/𝘼</td>
+                    <td style="width: 40%;" align="center" id="display2">𝙉/𝘼</td>   
+                </tr>
+                <tr>
+                    <th>TYPE:</th>
+                    <td align="center" id="display3">𝙉/𝘼</td>
+                    <td align="center" id="display4">𝙉/𝘼</td>
+                </tr>
+            
+                <tr>
+                    <th rowspan="2">PERFORMANCE:</th>
+                    <th>CPU:</th>
+                    <td align="center" style="width: 40%;" id="cpu1">𝙉/𝘼</td>
+                    <td align="center" style="width: 40%;" id="cpu2">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th>GPU:</th>
+                    <td align="center" id="gpu1">𝙉/𝘼</td>
+                    <td align="center" id="gpu2">𝙉/𝘼</td>
+                </tr>
+            
+
+                <tr>
+                    <th rowspan="2">CAMERA:</th>
+                    <th>REAR</th>
+                    <td align="center" id="camera1">𝙉/𝘼</td>
+                    <td align="center" id="camera2">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th>FRONT</th>
+                    <td align="center" id="camera3">𝙉/𝘼</td>
+                    <td align="center" id="camera4">𝙉/𝘼</td>
+                </tr>
+
+    
+                <tr>
+                    <th rowspan="2">PLATEFORM</th>
+                    <th>OS:</th>
+                    <td align="center" id="os1">𝙉/𝘼</td>
+                    <td align="center" id="os2">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th>skin</th>
+                    <td align="center" id="os3">𝙉/𝘼</th>
+                    <td align="center" id="os4">𝙉/𝘼</th>
+                </tr>
+            
+                <tr>
+                    <th rowspan="2">BATTERY:</th>
+                    <th>capacity</th>
+                    <td align="center" id="battery1">𝙉/𝘼</td>
+                    <td align="center" id="battery2">𝙉/𝘼</td>
+                </tr>
+                <tr>
+                    <th>charging</th>
+                    <td align="center" id="battery3"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="battery4"><center>𝙉/𝘼</center></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">STORAGE:</th>
+                    <th>RAM:</th>
+                    <td align="center" id="storage1"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="storage2"><center>𝙉/𝘼</center></td>
+                </tr>
+                <tr>
+                    <th>ROM:</th>
+                    <td align="center" id="storage3"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="storage4"><center>𝙉/𝘼</center></td>
+                </tr>
+                
+                <tr>
+                    <th rowspan="2">TEST:</th>
+                    <th>Antutu:</th>
+                    <td align="center" id="test1"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="test2"><center>𝙉/𝘼</center></td>
+                </tr>
+                <tr>
+                    <th>GeekBench:</th>
+                    <td align="center" id="test3"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="test4"><center>𝙉/𝘼</center></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">SAR:</th>
+                    <th>HEAD</th>
+                    <td align="center" id="sar1"><center>𝙉/𝘼</center></td>
+                    <td align="center" id="sar2"><center>𝙉/𝘼</center></td>
+                </tr>
+                <tr>    
+                    <th>BODY</th>
+                    <td align="center" id="sar3">𝙉/𝘼</td>
+                    <td align="center" id="sar4">𝙉/𝘼</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>CHOICE YOURS</h3>
+            <p>This webpage guide to Buy a product.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">ROHITH KUMAR :)</a>  </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="Home.html">Home</a></li>
+                  <li><a href="productsList.html">productLists</a></li>
+                  <li><a href="Comparison.html">comparisons</a></li>
+                  <li><a href="review(mobile).html">reviews</a></li>
+                  <li><a href="about.html">About</a></li>
+                </ul>
+        </div>
+  
+    </footer>
+
+</body>
+</html>
+
+<script src="data.js"></script>
+<script>
+    for (var i =1;i<mobiles.length;i++){
+        document.getElementById("select1").innerHTML+=`
+        <option value="${i}" align="center">${mobiles[i].title}</option>
+         `;  
+        document.getElementById("select2").innerHTML+=`
+        <option value="${i}" align="center">${mobiles[i].title}</option>
+        `;  
+        }
+    function item1(a){
+        document.getElementById("img1").src=mobiles[a].image
+        document.getElementById("display1").innerHTML=mobiles[a].display1
+        document.getElementById("display3").innerHTML=mobiles[a].display2
+        document.getElementById("cpu1").innerHTML=mobiles[a].processor1
+        document.getElementById("gpu1").innerHTML=mobiles[a].processor2
+        document.getElementById("camera1").innerHTML=mobiles[a].camera1
+        document.getElementById("camera3").innerHTML=mobiles[a].camera2
+        document.getElementById("os1").innerHTML=mobiles[a].os1
+        document.getElementById("os3").innerHTML=mobiles[a].os2
+        document.getElementById("battery1").innerHTML=mobiles[a].battery1
+        document.getElementById("battery3").innerHTML=mobiles[a].battery2
+        document.getElementById("storage1").innerHTML=mobiles[a].storage1
+        document.getElementById("storage3").innerHTML=mobiles[a].storage2
+        document.getElementById("launch1").innerHTML=mobiles[a].launch1
+        document.getElementById("launch3").innerHTML=mobiles[a].launch2
+        document.getElementById("test1").innerHTML=mobiles[a].test1
+        document.getElementById("test3").innerHTML=mobiles[a].test2
+        document.getElementById("sar1").innerHTML=mobiles[a].sar1
+        document.getElementById("sar3").innerHTML=mobiles[a].sar2
+    }
+    function item2(a){
+        document.getElementById("img2").src=mobiles[a].image
+        document.getElementById("display2").innerHTML=mobiles[a].display1
+        document.getElementById("display4").innerHTML=mobiles[a].display2
+        document.getElementById("cpu2").innerHTML=mobiles[a].processor1
+        document.getElementById("gpu2").innerHTML=mobiles[a].processor2
+        document.getElementById("camera2").innerHTML=mobiles[a].camera1
+        document.getElementById("camera4").innerHTML=mobiles[a].camera2
+        document.getElementById("os2").innerHTML=mobiles[a].os1
+        document.getElementById("os4").innerHTML=mobiles[a].os2
+        document.getElementById("battery2").innerHTML=mobiles[a].battery1
+        document.getElementById("battery4").innerHTML=mobiles[a].battery2
+        document.getElementById("storage2").innerHTML=mobiles[a].storage1
+        document.getElementById("storage4").innerHTML=mobiles[a].storage2
+        document.getElementById("launch2").innerHTML=mobiles[a].launch1
+        document.getElementById("launch4").innerHTML=mobiles[a].launch2
+        document.getElementById("test2").innerHTML=mobiles[a].test1
+        document.getElementById("test4").innerHTML=mobiles[a].test2
+        document.getElementById("sar2").innerHTML=mobiles[a].sar1
+        document.getElementById("sar4").innerHTML=mobiles[a].sar2
+    }
+</script>
