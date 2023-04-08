@@ -1,7 +1,8 @@
 # Mini-project-choice-yours
 
 ## Project Description: 
-In this fast-moving world, gadgets and electronic devices play an essential role. And Technology also grow fastly, So Gadgets Release is increased huge level. This Reason causes inconvenient to buy a Gadgets. Most of the brand Releases products more than 8 gadget (approximate) in monthly. It makes big confusion to buy a gadget.   
+In this fast-moving world, gadgets and electronic devices play an essential role. And Technology also grow fastly, So Gadgets Release is increased huge level. This Reason causes inconvenient to buy a Gadgets. Most of the brand Releases products more than 8 gadget (approximate) in monthly. It makes big confusion to buy a gadget. 
+
 Choice yours webpage prevent this problem to clarify to buy a correct needed gadget. Because all people needs is not same so, choose a correct needed gadget with clear idea about that gadgets. In this webpage used for choose a gadgets. This webpage contain three modules, these three modules perform important tasks. 
 
 ### 1.Gadget List:
@@ -24,9 +25,12 @@ RAM        	   	: 2 GB (minimum)
 
 ### Software Specification:  
 Operating System 	: Windows	
+
 Front End Tool  	: Microsoft Visual Studio Code
+
 Back End Tool   	: Xampp
 
 ### Language Specification:
 Front-end Language	: Html, css, java script
+
 Back-end Language   : php, MySQL
