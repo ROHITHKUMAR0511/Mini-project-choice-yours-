@@ -17,7 +17,9 @@ Third and final module used for know about Real-time usage of the gadget. Becaus
 
 ### Hardware Specification:
 Processor   		: Pentium IV/III (minimum)
+
 Hard disk   		: 5 GB (minimum)
+
 RAM        	   	: 2 GB (minimum)
 
 ### Software Specification:  
