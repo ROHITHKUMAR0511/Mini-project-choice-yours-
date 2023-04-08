@@ -12,3 +12,19 @@ Second module is Play an important Roles, because this module is compare a gadge
 
 ### 3.Expert Review:
 Third and final module used for know about Real-time usage of the gadget. Because specification that only not decide that gadget is good. Expert shares about that particular gadget in how it's performs Real-time usage. One Expert user share experience of  an Gadget.
+
+##DEVELOPMENT ENVIRONMENT
+
+### Hardware Specification:
+Processor   		: Pentium IV/III (minimum)
+Hard disk   		: 5 GB (minimum)
+RAM        	   	: 2 GB (minimum)
+
+### Software Specification:  
+Operating System 	: Windows	
+Front End Tool  	: Microsoft Visual Studio Code
+Back End Tool   	: Xampp
+
+### Language Specification:
+Front-end Language	: Html, css, java script
+Back-end Language   : php, MySQL
